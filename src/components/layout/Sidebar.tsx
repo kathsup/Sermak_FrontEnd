@@ -14,6 +14,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import SettingsIcon from "@mui/icons-material/Settings";
+import Inventory2Icon from "@mui/icons-material/Inventory2";
 
 export const DRAWER_WIDTH = 240;
 
@@ -21,6 +22,7 @@ const navItems = [
   { label: "Dashboard", href: "/dashboard", icon: <DashboardIcon /> },
   { label: "Clientes", href: "/clientes", icon: <PeopleIcon /> },
   { label: "Facturas", href: "/facturas", icon: <ReceiptLongIcon /> },
+  { label: "Suministros", href: "/suministros", icon: <Inventory2Icon /> },
   { label: "Informes", href: "/informes", icon: <AssessmentIcon /> },
   { label: "Configuración", href: "/configuracion", icon: <SettingsIcon /> },
 ];
